@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.container{
+    padding: 15px 9%;
+    
+}
+.heading{
+    padding-bottom: 15px;
+    color: tomato;
+    text-align: center;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 15px;
+}
+.box{
+    padding: 5px;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+img{
+    height: 200px;
+    width: 100%;
+}
+h3,p{
+    padding: 5px;
+}
